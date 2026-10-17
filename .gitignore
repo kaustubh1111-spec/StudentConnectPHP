@@ -1,0 +1,15 @@
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and temporary files
+vendor/
+node_modules/
+*.log
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
